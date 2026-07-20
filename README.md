@@ -1,4 +1,2 @@
-# padams-infinity2.github.io
-My Portfolio 
 
-Hello, this is a test!
+Hello there, this website is under construction. Stay tooned for my professional portfolio. 
