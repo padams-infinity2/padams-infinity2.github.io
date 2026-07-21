@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — [Your Name]</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="bar">
+    <a href="index.html" class="mark">[YOUR_NAME]</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="contact-cta hard">
+      <h2>Let's build something.</h2>
+      <p>[A short line inviting people to reach out — about work, collaborations, or just to say hi.]</p>
+    </div>
+
+    <div class="contact-grid">
+      <!-- Point this form at your handler of choice (Formspree, Netlify Forms, etc.) -->
+      <form action="#" method="POST">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Send Message</button>
+      </form>
+
+      <div class="contact-links">
+        <a href="mailto:[you@example.com]"><span>Email</span><span>[you@example.com]</span></a>
+        <a href="#"><span>GitHub</span><span>github.com/[you]</span></a>
+        <a href="#"><span>LinkedIn</span><span>linkedin.com/in/[you]</span></a>
+        <a href="#"><span>Resume</span><span>Download PDF</span></a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="site">
+  <div class="bar">
+    <p>© [YEAR] [Your Name]. All rights reserved.</p>
+    <div class="socials">
+      <a href="mailto:[you@example.com]">Email</a>
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
